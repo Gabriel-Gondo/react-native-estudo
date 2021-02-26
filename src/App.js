@@ -8,11 +8,14 @@ import Botao from './componentes/botao'
 import Contador from './componentes/Contador'
 import Pai from './componentes/indireta/Pai'
 import Diferenciar from './componentes/Diferenciar'
+import FlexV1 from './componentes/layout/FlexV1'
+import FlexV2 from './componentes/layout/FlexV2'
+
 
 export default () =>  {
     return (
         <View style={style.App}>
-            <Diferenciar/>
+            <FlexV2 />
         </View>
     )
 }

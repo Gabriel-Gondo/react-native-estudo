@@ -1,0 +1,16 @@
+Diferencas 
+
+div => native = view
+       web    = div 
+
+justifyContent => native = vertical
+                  web    = horizontal
+
+button => native = onPress
+          web    = onClick
+
+Existe FlatList semelhante ao map para gerar listas jsx
+
+para texto é usado onChangeText
+
+pode ser selecionado keyboardtype
